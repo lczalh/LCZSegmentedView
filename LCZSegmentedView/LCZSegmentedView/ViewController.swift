@@ -17,7 +17,7 @@ class ViewController: UIViewController {
         
         let homeEntryView = LCZSegmentedView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height), titles: titles, menuScrollViewFrame: CGRect(x: 0, y: 20, width: self.view.frame.width, height: 40), foreAndAftSpacing: 15, buttonSpacing: 20)
         self.view.addSubview(homeEntryView)
-        homeEntryView.selectedColor = UIColor.white
+        homeEntryView.selectedColor = UIColor.red
         homeEntryView.fontSize = UIFont.systemFont(ofSize: 12)
         
         var arr: Array<UIViewController> = []
